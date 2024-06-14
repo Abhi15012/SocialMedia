@@ -1,0 +1,119 @@
+.header{
+margin-left: 300px;
+margin-top:20px;
+margin-right:20px;
+padding-left: 100px;
+
+position: fixed;
+}
+
+.app-container{
+
+display: flex;
+
+flex-wrap: wrap;
+
+flex-direction: column;
+}
+
+
+.sideBar{
+min-height: 631px;
+
+}
+
+footer{
+border: 2px solid rgb(37, 37, 36);
+flex-direction: column;
+margin-top: 600px;
+ 
+}
+.delete{
+width:15px;
+  float:right;
+  padding-right: 16px;
+  transition: all ease-out 1s;
+}
+.tag{
+margin-left: 30px;
+
+
+}
+
+.like{
+
+  display: inline;
+
+}
+
+
+.delete:hover{
+  width:60px;
+  transform: scaleY(1.01);
+  cursor: pointer;
+    }
+
+    .WelMsg{
+
+margin : 100px 300px;
+
+    }
+
+    .joke{
+
+     margin-left: 50px; 
+    }
+    .ask{
+border-radius: 10px;
+      margin-top : 100px ;
+      margin-left: 150px;
+
+     height: 50px;
+     font-family: cursive;
+font-size:20px;
+padding-left: 10px;
+
+box-shadow: 2px 4px  15px ;
+    }
+    .ans{
+      border-radius: 10px;
+            margin-left: 120px;
+            margin-top: 20px;
+        
+           height: 50px;
+           font-family: cursive;
+      font-size:20px;
+      padding-left: 10px;
+filter: blur(5px);
+      box-shadow: 2px 4px  15px ;
+          }
+
+          .ask:hover{
+         
+            color: rgb(226, 76, 43);
+          cursor: pointer;
+                }
+                .ans:hover{
+                  cursor: pointer;
+                  border-radius: 10px;
+                        margin-left: 120px;
+                        margin-top: 20px;
+                        filter: blur(0px);
+                       height: 50px;
+                       font-family: cursive;
+                  font-size:20px;
+                  padding-left: 10px;
+                  color:rgb(226, 43, 101);
+                  box-shadow: 2px 4px  15px ;
+                      }
+
+
+                      .laugh{
+                        margin-left: 350px;
+                      }
+
+
+ .spinner{
+
+  margin:225px
+ }                     
